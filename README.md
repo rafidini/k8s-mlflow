@@ -59,4 +59,9 @@ kubectl apply -f kubernetes/k8s-mlflow.yaml
 
 A guideline will be produced later on.
 
+<br>
+
+> **Note**
+> 
+> To update the changelog `git-changelog -o CHANGELOG.md -s angular  .`
 
