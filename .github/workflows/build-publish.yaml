@@ -37,6 +37,7 @@ jobs:
           tags: |
             quay.io/rafidini/k8s-mlflow:${{ github.ref_name }}
             quay.io/rafidini/k8s-mlflow:latest
+          push: true
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
