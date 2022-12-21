@@ -35,7 +35,7 @@ jobs:
           context: .
           # Note: tags has to be all lower-case
           tags: |
-            quay.io/rafidini/k8s-mlflow:$GITHUB_REF_NAME
+            quay.io/rafidini/k8s-mlflow:${GITHUB_REF_NAME}
             quay.io/rafidini/k8s-mlflow:latest
 
       - name: Image digest
